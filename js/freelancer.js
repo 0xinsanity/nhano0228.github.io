@@ -41,25 +41,4 @@
         });
     });
 
-    $('#signup-mail').click(function () {
-        $.ajax({
-            url: "https://us16.api.mailchimp.com/3.0/lists/4a6284177e/members/",
-            type: "post",
-            headers: {
-                "Authorization": "apikey 331c68eff274129d21b29ebd303a59c3-us16"
-            },
-            data: {
-                email_address: $("#email-form").val(),
-                status: "subscribed"
-            },
-            success: function(result) {
-                console.log(result);
-            },
-            error: function(error) {
-                console.log(error);
-            },
-            dataType: "json"
-        })
-    });
-
 })(jQuery); // End of use strict

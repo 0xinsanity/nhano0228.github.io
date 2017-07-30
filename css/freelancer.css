@@ -273,7 +273,7 @@ section.success {
   }
 }
 .enter-email {
-  background-color: white
+  background-color: white;
 }
 .floating-label-form-group {
   position: relative;
@@ -411,8 +411,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #128f76;
-  border-color: #11866f;
+  background-color: #ED6863;
+  border-color: #ED6863;
 }
 .btn-success:active,
 .btn-success.active,

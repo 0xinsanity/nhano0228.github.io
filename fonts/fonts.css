@@ -16,6 +16,11 @@
 }
 
 @font-face {
+    font-family: 'Avenir';
+    src: url('AvenirLTStd-Book.otf');
+}
+
+@font-face {
     font-family: 'proxima_nova_altbold';
     src: url('Mark Simonson - Proxima Nova Alt Bold-webfont.eot');
     src: url('Mark Simonson - Proxima Nova Alt Bold-webfont.eot?#iefix') format('embedded-opentype'),

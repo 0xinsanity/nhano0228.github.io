@@ -75,12 +75,12 @@ hr.star-light-yellow:after {
 }
 
 hr.star-light-red {
-  border-color: white;
+  border-color: #ED6863;
 }
 
 hr.star-light-red:after {
-  background-color: #ED6863;
-  color: white;
+  background-color: white;
+  color: #ED6863;
 }
 
 hr.star-primary {
@@ -95,31 +95,37 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #ED6863;
+  background: white;
   color: white;
 }
 header .container {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
 header img {
   display: block;
   margin: 0 auto 20px;
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: lowercase;
   font-weight: 700;
   font-size: 2em;
 }
+
+.name, .skills {
+  color: #67a8a0;
+}
+
 header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 100px;
   }
   header .intro-text .name {
@@ -604,4 +610,26 @@ div#maincontent {
 
 .profile-center {
   text-align: center;
+}
+
+.knot {
+  height: 70px;
+}
+
+.skills, .name {
+  margin: 0px;
+}
+
+.img-responsive {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+  .knot {
+      height: 50px;
+  }
+  
+  .img-logo {
+      height:325px;
+  }
 }

@@ -594,7 +594,7 @@ div#maincontent {
   margin-top: 15px;
 }
 
-.phone-number, .email-profile {
+.phone-number, .phone-number-joana, .email-profile {
   font-family: "Proxima Nova";
   font-size: 17px;
   color: black;
